@@ -1,0 +1,93 @@
+/*
+
+1. I need a nav section – but I'll come back to it.
+2. Create a header section, just focus on size and position.
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  border: 1px dotted grey;
+}
+
+.header {
+  width: 850px;
+  height: 400px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  background-color: lightblue;
+}
+
+.header-bg {
+  height: 225px;
+  background-color: cyan;
+  border: 1px solid darkgray;
+}
+
+.profile-heading {
+  height: 175px;
+  background-color: white;
+  border: 1px solid darkgray;
+}
+
+.profile-photo {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C5603AQFbfSbZ5Nrvug/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=1yTzvewiUFruDyixnNUw83vpRkBS8b63ZuBcTjiPV2I');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.profile-info {
+  position: relative;
+  top: 75px;
+  height: 90px;
+  width: 60%;
+}
+
+.profile-info h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.float-right-box {
+  width: 50%;
+  float: right;
+}
+
+.profile-buttons {
+  height: 40px;
+
+  position: relative;
+  top: -75px;
+  left: 75px;
+}
+
+.profile-buttons button {
+  font-size: 22px;
+  background: blue;
+  color: white;
+}
+
+.employer-and-school-badges {
+  position: relative;
+  top: -75px;
+  left: 75px;
+}
+
+.employer-and-school-badges li {
+  list-style: none;
+}
+
